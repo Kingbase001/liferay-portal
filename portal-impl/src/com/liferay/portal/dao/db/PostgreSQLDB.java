@@ -254,7 +254,7 @@ public class PostgreSQLDB extends BaseDB {
 	}
 
 	private static final String[] _POSTGRESQL = {
-		"--", "true", "false", "'01/01/1970'", "current_timestamp", " oid",
+		"--", "true", "false", "'01/01/1970'", "current_timestamp", " bytea",
 		" bytea", " bool", " timestamp", " double precision", " integer",
 		" bigint", " text", " text", " varchar", "", "commit"
 	};
