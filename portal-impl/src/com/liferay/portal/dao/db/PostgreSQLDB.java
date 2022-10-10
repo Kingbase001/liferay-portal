@@ -233,11 +233,11 @@ public class PostgreSQLDB extends BaseDB {
 						"@table@", tokens[2]);
 				}
 				else if (line.contains(getTemplateBlob())) {
-					String[] tokens = StringUtil.split(line, ' ');
+// 					String[] tokens = StringUtil.split(line, ' ');
 
-					createRulesSQLSB.append(StringPool.NEW_LINE);
-					createRulesSQLSB.append(
-						getCreateRulesSQL(tableName, tokens[0]));
+// 					createRulesSQLSB.append(StringPool.NEW_LINE);
+// 					createRulesSQLSB.append(
+// 						getCreateRulesSQL(tableName, tokens[0]));
 				}
 				else if (line.contains("\\\'")) {
 					line = StringUtil.replace(line, "\\\'", "\'\'");
