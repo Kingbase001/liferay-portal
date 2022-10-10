@@ -40,10 +40,10 @@ public class UpgradePostgreSQL extends UpgradeProcess {
 			return;
 		}
 
-		updatePostgreSQLRules(
-			HashMapBuilder.put(
-				"DLContent", "data_"
-			).build());
+// 		updatePostgreSQLRules(
+// 			HashMapBuilder.put(
+// 				"DLContent", "data_"
+// 			).build());
 	}
 
 	protected void updatePostgreSQLRules(Map<String, String> oidColumnNames)
